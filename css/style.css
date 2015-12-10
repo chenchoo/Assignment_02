@@ -64,7 +64,6 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
-
 }
 
 
@@ -72,10 +71,51 @@ body {
 /* NEW
 /*******************************************/
 
-.box {
-    padding: 20px;
-    margin: 10px;
-    background: red;
+
+#container {
+max-width: 620px;
+}
+
+body{
+  background: #f0efef;
+}
+
+header{
+/*  float: left;
+  position: fixed;
+  top: 20px; */
+}
+
+img{
+  float: left;
+  margin: 0;
+}
+
+.main{
+}
+
+.main-bg{
+  position: relative;
+  width: 100%;
+}
+
+.main-content{
+  position: absolute;
+  clear: both;
+}
+
+.main2{
+  background: #f0efef;
+  clear: both;
+}
+
+.main3-bg{
+  position: relative;
+  width: 100%;
+}
+
+.main3-content{
+  position: absolute;
 }
 
 #button01{
@@ -86,8 +126,4 @@ body {
 #button02{
   border-radius: 5px;
   background: #f9e42e;
-}
-
-body{
-  background: #f0efef;
 }
