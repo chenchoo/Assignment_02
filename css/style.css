@@ -72,6 +72,7 @@ body {
 
 #container {
 max-width: 620px;
+font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -94,11 +95,7 @@ header{
 
 .main-content2{
   text-align: center;
-}
-
-.main2{
-  background: #f0efef;
-  height: 200px;
+  padding-top: 20px;
 }
 
 h1,
@@ -111,16 +108,52 @@ p{
 h1{
   padding-top: 10px;
   padding-left: 40px;
+  font-weight: 800;
+  font-size: 24px;
+  color: #fff;
+}
+
+h2{
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+h3{
+  font-weight: 600;
+  font-size: 20px;
+  color: #033048;
+  padding-bottom: 10px;
+}
+.main2{
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 200px;
+  padding-bottom: 40px;
+  height: auto;
+  font-size: 13px;
+  font-weight: 300px;
+  line-height: 1.5;
+  background: #f0efef;
 }
 
 .main3{
   background-image: url(../images/testimonial_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 150px;
-  padding-bottom: 0px;
+  height: auto;
+  padding: 30px 100px;
   color: #fff;
   text-align: center;
+  font-size: 18px;
+  font-style: italic;
+}
+
+#name{
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .main4{
@@ -145,15 +178,23 @@ Refer to hmtl markup for target example.
 */
 
 .button1{
-  padding: 10px 40px;
-  background-color: blue;
+  padding: 7px 30px;
+  background-color: #f9e42e;
   border-radius: 5px;
+  color: #033048;
+  font-weight: 800;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 .button2{
-  padding: 10px 40px;
-  background-color: blue;
+  padding: 7px 30px;
+  background-color: #033048;
   border-radius: 5px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 12px;
+  text-decoration: none;
 }
 
 .main4-content{
@@ -180,4 +221,6 @@ footer .footer2 a:first-child{
 
 .footer3{
   padding: 15px;
+  font-size: 9px;
+  font-weight: 600;
 }
